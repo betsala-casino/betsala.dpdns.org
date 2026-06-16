@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>./</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>casino/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>tragamonedas/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>casino-en-vivo/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>apuestas-deportivas/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>aviator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>lucky-jet/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>mines/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>bono-de-bienvenida/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>codigo-promocional/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>promociones/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>registro/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>iniciar-sesion/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>app/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>vip/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>soporte/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>confiable/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <url>
+    <loc>https://betsala.dpdns.org/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://betsala.dpdns.org/casino/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://betsala.dpdns.org/tragamonedas/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://betsala.dpdns.org/promociones/</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
