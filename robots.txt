@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
-<<<<<<< HEAD
 
-=======
-Disallow: /play-online-now/
->>>>>>> ca8580ce727e3e93c8bb0299fb2239ff465e4313
 Sitemap: https://betsala.dpdns.org/sitemap.xml

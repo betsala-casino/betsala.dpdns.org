@@ -1,23 +1,31 @@
+# ─── Cache headers for static assets (1 year) ───
 <IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/webp "access plus 1 year"
-<<<<<<< HEAD
-ExpiresByType image/jpg "access plus 1 year"
-ExpiresByType image/jpeg "access plus 1 year"
-ExpiresByType image/png "access plus 1 year"
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType application/javascript "access plus 1 month"
-</IfModule>
-
-<IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json
-=======
-ExpiresByType image/png "access plus 1 year"
-ExpiresByType text/css "access plus 1 year"
-ExpiresByType application/javascript "access plus 1 year"
+  ExpiresActive On
+  ExpiresDefault                              "access plus 1 month"
+  ExpiresByType image/webp                    "access plus 1 year"
+  ExpiresByType image/png                     "access plus 1 year"
+  ExpiresByType image/jpeg                    "access plus 1 year"
+  ExpiresByType image/svg+xml                 "access plus 1 year"
+  ExpiresByType image/x-icon                  "access plus 1 year"
+  ExpiresByType text/css                      "access plus 1 year"
+  ExpiresByType application/javascript        "access plus 1 year"
+  ExpiresByType text/javascript               "access plus 1 year"
+  ExpiresByType font/woff                     "access plus 1 year"
+  ExpiresByType font/woff2                    "access plus 1 year"
 </IfModule>
 
 <IfModule mod_headers.c>
-Header set Connection keep-alive
->>>>>>> ca8580ce727e3e93c8bb0299fb2239ff465e4313
+  <FilesMatch "\.(webp|png|jpg|jpeg|svg|ico|css|js|woff|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  Header set Connection keep-alive
+  Header append Vary Accept-Encoding
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/javascript application/javascript application/json image/svg+xml
 </IfModule>
