@@ -8,7 +8,7 @@
 <meta name="keywords" content="betsala promociones, betsala bono, betsala free bet, betsala club, mascombi, betsala mundial">
 <meta name="robots" content="index, follow">
 <link rel="icon" type="image/webp" href="../assets/favicon.webp">
-<link rel="preload" as="image" href="../images/welcome-bonus.webp" imagesrcset="../images/welcome-bonus-400.webp 400w, ../images/welcome-bonus-800.webp 800w, ../images/welcome-bonus.webp 1200w" imagesizes="(max-width: 560px) 400px, (max-width: 980px) 800px, 1200px">
+<link rel="stylesheet" href="../css/style.css">
 <style>
 .promos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:8px}
 .bono-card{background:linear-gradient(180deg,var(--bg-2),var(--bg-3));border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .2s,border-color .2s;display:flex;flex-direction:column;cursor:pointer}
@@ -51,31 +51,24 @@ body.modal-open{overflow:hidden}
 </head>
 <body>
 <header class="topbar">
- <div class="topbar-inner">
- <a class="logo" href="../"><img src="../assets/logo.webp" alt="BetSala Chile" width="360" height="80" loading="eager" fetchpriority="high" decoding="async"></a>
- <div class="top-actions">
- <span class="lang">🇨🇱 Chile</span>
- <a class="btn btn-ghost" href="../iniciar-sesion/">Acceder</a>
- <a class="btn btn-primary" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Registrarme</a>
- </div>
- </div>
- <nav class="mainnav"><div class="mainnav-inner"><a class="" href="../casino/">🎰 Casino</a><a class="" href="../tragamonedas/">🎲 Tragamonedas</a><a class="" href="../casino-en-vivo/">♠ En vivo</a><a class="" href="../apuestas-deportivas/">⚽ Deportes</a><a class="" href="../aviator/">✈ Aviator</a><a class="" class="active" href="../promociones/">🎁 Promos</a><a class="" href="../codigo-promocional/">🏷 Códigos</a><a class="" href="../app/">📱 App</a><a class="" href="../vip/">👑 VIP</a></div></nav>
- <div class="top-actions">
- <span class="lang">🇨🇱 Chile</span>
- <a class="btn btn-ghost" href="../iniciar-sesion/">Acceder</a>
- <a class="btn btn-primary" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Registrarme</a>
- </div>
- </div>
- <nav class="mainnav"><div class="mainnav-inner"><a class="" href="../casino/">🎰 Casino</a><a class="" href="../tragamonedas/">🎲 Tragamonedas</a><a class="" href="../casino-en-vivo/">♠ En vivo</a><a class="" href="../apuestas-deportivas/">⚽ Deportes</a><a class="" href="../aviator/">✈ Aviator</a><a class="" class="active" href="../promociones/">🎁 Promos</a><a class="" href="../codigo-promocional/">🏷 Códigos</a><a class="" href="../app/">📱 App</a><a class="" href="../vip/">👑 VIP</a></div></nav>
+  <div class="topbar-inner">
+    <a class="logo" href="../"><img src="../assets/logo.webp" alt="BetSala Chile" width="360" height="80"></a>
+    <div class="top-actions">
+      <span class="lang">🇨🇱 Chile</span>
+      <a class="btn btn-ghost" href="../iniciar-sesion/">Acceder</a>
+      <a class="btn btn-primary" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Registrarme</a>
+    </div>
+  </div>
+  <nav class="mainnav"><div class="mainnav-inner"><a class="" href="../casino/">🎰 Casino</a><a class="" href="../tragamonedas/">🎲 Tragamonedas</a><a class="" href="../casino-en-vivo/">♠ En vivo</a><a class="" href="../apuestas-deportivas/">⚽ Deportes</a><a class="" href="../aviator/">✈ Aviator</a><a class="" class="active" href="../promociones/">🎁 Promos</a><a class="" href="../codigo-promocional/">🏷 Códigos</a><a class="" href="../app/">📱 App</a><a class="" href="../vip/">👑 VIP</a></div></nav>
 </header>
 
 <div class="modal-overlay" id="modal-2" role="dialog" aria-modal="true" aria-labelledby="modal-title-2">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(2)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-02.webp" alt="Pack bienvenida casino + spins" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-2">Pack bienvenida casino + spins</h2>
- <div class="modal-content"><p class="modal-intro">El bono casino del 150% es la ruta más recomendada para nuevos jugadores que entran por las tragamonedas. Boost completo sobre el primer depósito más giros escalonados según el monto.</p>
+  <button class="modal-close" onclick="closeModal(2)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-02.webp" alt="Pack bienvenida casino + spins" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-2">Pack bienvenida casino + spins</h2>
+    <div class="modal-content"><p class="modal-intro">El bono casino del 150% es la ruta más recomendada para nuevos jugadores que entran por las tragamonedas. Boost completo sobre el primer depósito más giros escalonados según el monto.</p>
 
 <h3>Datos clave del bono</h3>
 <ul>
@@ -113,18 +106,18 @@ body.modal-open{overflow:hidden}
 <p>Los giros valen <strong>$100 CLP cada uno</strong> y caducan en <strong>48 horas</strong>. Las ganancias generadas pasan directo al saldo real sin rollover adicional. La oferta de hasta 200 giros está disponible solo durante los primeros 7 días tras el registro. Slots Pragmatic Play seleccionadas: Sweet Bonanza 1000, Sugar Rush 1000, Gates of Olympus 1000™, Starlight Princess 1000, Big Bass Bonanza 1000 y otros títulos populares.</p>
 
 <p>Bono incompatible con el de bienvenida deportivo — debes elegir uno antes del primer depósito.</p></div>
- <p class="promo-code-small">Código: <strong>CASINO1DEP</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>CASINO1DEP</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-1" role="dialog" aria-modal="true" aria-labelledby="modal-title-1">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(1)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-01.webp" alt="Free Bet de bienvenida deportiva" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-1">Free Bet de bienvenida deportiva</h2>
- <div class="modal-content"><p class="modal-intro">La Free Bet de bienvenida es la primera promoción que ve un usuario nuevo en BetSala. Requiere completar registro, depósito y primera apuesta con cuota mínima — sin necesidad de ganar.</p>
+  <button class="modal-close" onclick="closeModal(1)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-01.webp" alt="Free Bet de bienvenida deportiva" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-1">Free Bet de bienvenida deportiva</h2>
+    <div class="modal-content"><p class="modal-intro">La Free Bet de bienvenida es la primera promoción que ve un usuario nuevo en BetSala. Requiere completar registro, depósito y primera apuesta con cuota mínima — sin necesidad de ganar.</p>
 
 <h3>Datos clave del bono</h3>
 <ul>
@@ -155,18 +148,18 @@ body.modal-open{overflow:hidden}
 
 <h3>4. Acreditación y uso de la Free Bet</h3>
 <p>Una vez resuelta la apuesta clasificatoria, $30.000 CLP aparecen en tu saldo bonificado. Para apostarla, la cuota total mínima debe ser <strong>1.50</strong> (en combinadas: 1.25 por selección). El importe inicial no se retira — solo las ganancias generadas, con tope de $300.000 CLP. Solo un bono por usuario, cuenta, IP, dispositivo y método de pago.</p></div>
- <p class="promo-code-small">Código: <strong>OMW7</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>OMW7</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-3" role="dialog" aria-modal="true" aria-labelledby="modal-title-3">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(3)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-03.webp" alt="Recarga casino del 100%" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-3">Recarga casino del 100%</h2>
- <div class="modal-content"><p class="modal-intro">El segundo depósito de BetSala mantiene la lógica del primer bono pero con multiplicador del 100% y techo más bajo. Solo está disponible si ya completaste el primer ingreso de saldo.</p>
+  <button class="modal-close" onclick="closeModal(3)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-03.webp" alt="Recarga casino del 100%" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-3">Recarga casino del 100%</h2>
+    <div class="modal-content"><p class="modal-intro">El segundo depósito de BetSala mantiene la lógica del primer bono pero con multiplicador del 100% y techo más bajo. Solo está disponible si ya completaste el primer ingreso de saldo.</p>
 
 <h3>Datos clave del bono</h3>
 <ul>
@@ -208,18 +201,18 @@ body.modal-open{overflow:hidden}
 
 <h3>4. Operatividad</h3>
 <p>Slots cuentan al 100% del rollover, mesas y casino en vivo solo al 10%. Bono válido 10 días, giros válidos 7 días. Las ganancias de giros van al saldo real sin rollover. No compatible con bono de apuestas deportivas activo.</p></div>
- <p class="promo-code-small">Código: <strong>CASINODEP2</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>CASINODEP2</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-4" role="dialog" aria-modal="true" aria-labelledby="modal-title-4">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(4)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-04.webp" alt="Giros gratis cada martes" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-4">Giros gratis cada martes</h2>
- <div class="modal-content"><p class="modal-intro">Una promoción recurrente todos los lunes de 2026: jugar Gates of Olympus por un monto mínimo te garantiza giros gratis automáticos el martes — sin sorteo, sin condición de victoria.</p>
+  <button class="modal-close" onclick="closeModal(4)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-04.webp" alt="Giros gratis cada martes" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-4">Giros gratis cada martes</h2>
+    <div class="modal-content"><p class="modal-intro">Una promoción recurrente todos los lunes de 2026: jugar Gates of Olympus por un monto mínimo te garantiza giros gratis automáticos el martes — sin sorteo, sin condición de victoria.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -255,18 +248,18 @@ body.modal-open{overflow:hidden}
 <li>Si caducan sin usar, no se reponen</li>
 <li>BetSala puede modificar o cancelar la promo con previo aviso</li>
 </ul></div>
- <p class="promo-code-small">Código: <strong>WAGGO2026</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>WAGGO2026</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-22" role="dialog" aria-modal="true" aria-labelledby="modal-title-22">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(22)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-22.webp" alt="Seguro semanal BetSala Club" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-22">Seguro semanal BetSala Club</h2>
- <div class="modal-content"><p class="modal-intro">El Betsala Club es el seguro de pérdidas semanal de la sección deportiva. Si pierdes más de $25.000 CLP netos en deportes, el lunes recibes Free Bet automática — el monto escala con la pérdida.</p>
+  <button class="modal-close" onclick="closeModal(22)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-22.webp" alt="Seguro semanal BetSala Club" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-22">Seguro semanal BetSala Club</h2>
+    <div class="modal-content"><p class="modal-intro">El Betsala Club es el seguro de pérdidas semanal de la sección deportiva. Si pierdes más de $25.000 CLP netos en deportes, el lunes recibes Free Bet automática — el monto escala con la pérdida.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -307,18 +300,18 @@ body.modal-open{overflow:hidden}
 <li>Validez: 5 días tras acreditarse</li>
 <li>Solo 1 Free Bet por usuario, persona, IP o dirección</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-16" role="dialog" aria-modal="true" aria-labelledby="modal-title-16">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(16)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-16.webp" alt="Reembolso 10% slots miércoles" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-16">Reembolso 10% slots miércoles</h2>
- <div class="modal-content"><p class="modal-intro">Una promoción semanal que reduce el riesgo de jugar slots los miércoles. El 10% de la pérdida neta vuelve el jueves antes de las 9h, directo al saldo principal, hasta $100.000 CLP.</p>
+  <button class="modal-close" onclick="closeModal(16)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-16.webp" alt="Reembolso 10% slots miércoles" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-16">Reembolso 10% slots miércoles</h2>
+    <div class="modal-content"><p class="modal-intro">Una promoción semanal que reduce el riesgo de jugar slots los miércoles. El 10% de la pérdida neta vuelve el jueves antes de las 9h, directo al saldo principal, hasta $100.000 CLP.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -359,18 +352,18 @@ body.modal-open{overflow:hidden}
 <li>Solo apuestas con <strong>saldo real</strong> — no bono ni Giros Gratis</li>
 <li>Pérdida mínima para activar: $10.000 CLP</li>
 </ul></div>
- <p class="promo-code-small">Código: <strong>CAS10%CASH2024</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>CAS10%CASH2024</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-20" role="dialog" aria-modal="true" aria-labelledby="modal-title-20">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(20)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-20.webp" alt="Cashback Casino En Vivo flexible" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-20">Cashback Casino En Vivo flexible</h2>
- <div class="modal-content"><p class="modal-intro">El cashback del Casino En Vivo es el único de BetSala con cobro flexible. Tú decides: pago automático cada 24h o cobro manual cuando quieras durante el día.</p>
+  <button class="modal-close" onclick="closeModal(20)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-20.webp" alt="Cashback Casino En Vivo flexible" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-20">Cashback Casino En Vivo flexible</h2>
+    <div class="modal-content"><p class="modal-intro">El cashback del Casino En Vivo es el único de BetSala con cobro flexible. Tú decides: pago automático cada 24h o cobro manual cuando quieras durante el día.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -408,18 +401,18 @@ body.modal-open{overflow:hidden}
 <li>Debe jugarse al menos una vez para ser retirable</li>
 <li>No hay otros requisitos de apuesta</li>
 </ul></div>
- <p class="promo-code-small">Código: <strong>CASHLIVE5%</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    <p class="promo-code-small">Código: <strong>CASHLIVE5%</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-17" role="dialog" aria-modal="true" aria-labelledby="modal-title-17">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(17)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-17.webp" alt="Bonificación MásCombi" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-17">Bonificación MásCombi</h2>
- <div class="modal-content"><p class="modal-intro">MásCombi recompensa apuestas combinadas ganadoras con un bono extra en saldo real. El porcentaje escala según el número de selecciones acertadas — del 6% con 3 picks al 100% con 20 o más.</p>
+  <button class="modal-close" onclick="closeModal(17)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-17.webp" alt="Bonificación MásCombi" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-17">Bonificación MásCombi</h2>
+    <div class="modal-content"><p class="modal-intro">MásCombi recompensa apuestas combinadas ganadoras con un bono extra en saldo real. El porcentaje escala según el número de selecciones acertadas — del 6% con 3 picks al 100% con 20 o más.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -468,18 +461,18 @@ body.modal-open{overflow:hidden}
 <li>Apuestas cobradas con Cash-out excluidas</li>
 <li>Combinada del Día y mercados especiales excluidos</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-18" role="dialog" aria-modal="true" aria-labelledby="modal-title-18">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(18)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-18.webp" alt="MásCombi versión paralela" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-18">MásCombi versión paralela</h2>
- <div class="modal-content"><p class="modal-intro">MásCombi V2 mantiene la misma estructura de bonificación que la versión original. Funciona idénticamente — del 6% con 3 picks al 100% con 20 o más selecciones.</p>
+  <button class="modal-close" onclick="closeModal(18)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-18.webp" alt="MásCombi versión paralela" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-18">MásCombi versión paralela</h2>
+    <div class="modal-content"><p class="modal-intro">MásCombi V2 mantiene la misma estructura de bonificación que la versión original. Funciona idénticamente — del 6% con 3 picks al 100% con 20 o más selecciones.</p>
 
 <h3>Datos clave</h3>
 <ul>
@@ -509,18 +502,19 @@ body.modal-open{overflow:hidden}
 <h3>4. ¿Cuál versión está activa?</h3>
 <p>BetSala asigna MásCombi V1 o V2 según la sección del usuario. Solo una versión está disponible a la vez por cuenta. Funcionalmente son intercambiables.</p>
 <p>Mismas restricciones que MásCombi original: no aplica a Bet Builder, apuestas con Aumentador, apuestas con dinero de bono o Free Bet, ni apuestas cobradas con Cash-out.</p></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
 </div>
 </div>
 <div class="modal-overlay" id="modal-21" role="dialog" aria-modal="true" aria-labelledby="modal-title-21">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(21)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-21.webp" alt="Boost diario del 5%" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-21">Boost diario del 5%</h2>
- <div class="modal-content"><p class="modal-intro">Un boost diario al saldo: un depósito de $10.000 CLP activa un aumentador del 5% que aplicas desde el boleto a la ganancia neta de tu próxima apuesta deportiva. Uno por día natural.</p>
+  <button class="modal-close" onclick="closeModal(21)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-21.webp" alt="Boost diario del 5%" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-21">Boost diario del 5%</h2>
+    <div class="modal-content"><p class="modal-intro">Un boost diario al saldo: un depósito de $10.000 CLP activa un aumentador del 5% que aplicas desde el boleto a la ganancia neta de tu próxima apuesta deportiva. Uno por día natural.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Trigger:</strong> depósito de $10.000 CLP en una transacción</li>
@@ -562,17 +556,19 @@ body.modal-open{overflow:hidden}
 </ul>
 
 <p>El bono extra se acredita como <strong>dinero real directo</strong> al saldo principal junto con las ganancias normales.</p></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-5" role="dialog" aria-modal="true" aria-labelledby="modal-title-5">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(5)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-05.webp" alt="Pasaporte Mundial 2026" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-5">Pasaporte Mundial 2026</h2>
- <div class="modal-content"><p class="modal-intro">El Pasaporte Mundialista es una promoción gamificada durante el Mundial 2026. Hay una misión por día y completar grupos específicos desbloquea Free Bets escalonadas.</p>
+  <button class="modal-close" onclick="closeModal(5)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-05.webp" alt="Pasaporte Mundial 2026" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-5">Pasaporte Mundial 2026</h2>
+    <div class="modal-content"><p class="modal-intro">El Pasaporte Mundialista es una promoción gamificada durante el Mundial 2026. Hay una misión por día y completar grupos específicos desbloquea Free Bets escalonadas.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Período:</strong> 11 al 27 de junio 2026 (GMT-4)</li>
@@ -613,17 +609,19 @@ body.modal-open{overflow:hidden}
 </ul>
 
 <p>Un Pasaporte por usuario, persona, IP o dirección.</p></div>
- <p class="promo-code-small">Código: <strong>UNT2</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    <p class="promo-code-small">Código: <strong>UNT2</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-7" role="dialog" aria-modal="true" aria-labelledby="modal-title-7">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(7)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-07.webp" alt="El Vidente — predicciones gratis" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-7">El Vidente — predicciones gratis</h2>
- <div class="modal-content"><p class="modal-intro">El Vidente es un juego predictivo gratuito en BetSala. Sin apostar saldo real, predices marcadores y goleadores del Mundial — los aciertos generan puntos según un sistema proporcional.</p>
+  <button class="modal-close" onclick="closeModal(7)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-07.webp" alt="El Vidente — predicciones gratis" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-7">El Vidente — predicciones gratis</h2>
+    <div class="modal-content"><p class="modal-intro">El Vidente es un juego predictivo gratuito en BetSala. Sin apostar saldo real, predices marcadores y goleadores del Mundial — los aciertos generan puntos según un sistema proporcional.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Tipo:</strong> juego predictivo sin apuesta</li>
@@ -664,17 +662,19 @@ body.modal-open{overflow:hidden}
 </ul>
 
 <p>Para la segunda fecha del juego se requiere un depósito de $10.000 CLP desde el 10 de junio.</p></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-9" role="dialog" aria-modal="true" aria-labelledby="modal-title-9">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(9)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-09.webp" alt="Cartilla Futbolera 1X2" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-9">Cartilla Futbolera 1X2</h2>
- <div class="modal-content"><p class="modal-intro">La Cartilla Futbolera es una quiniela predictiva: eliges 1-X-2 en una jornada de partidos seleccionados y compites por un pozo común con todos los participantes.</p>
+  <button class="modal-close" onclick="closeModal(9)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-09.webp" alt="Cartilla Futbolera 1X2" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-9">Cartilla Futbolera 1X2</h2>
+    <div class="modal-content"><p class="modal-intro">La Cartilla Futbolera es una quiniela predictiva: eliges 1-X-2 en una jornada de partidos seleccionados y compites por un pozo común con todos los participantes.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Tipo:</strong> quiniela predictiva de partidos</li>
@@ -711,17 +711,19 @@ body.modal-open{overflow:hidden}
 <li>Premios acreditados tras validar resultados</li>
 <li>Comprar varias líneas con combinaciones distintas cubre más resultados posibles</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-13" role="dialog" aria-modal="true" aria-labelledby="modal-title-13">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(13)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-13.webp" alt="Cadena Suplente al Rescate" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-13">Cadena Suplente al Rescate</h2>
- <div class="modal-content"><p class="modal-intro">Una funcionalidad única en los mercados de goleador. Si tu jugador es sustituido, la apuesta sigue activa pasando al sustituto en una cadena que termina solo al final del partido.</p>
+  <button class="modal-close" onclick="closeModal(13)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-13.webp" alt="Cadena Suplente al Rescate" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-13">Cadena Suplente al Rescate</h2>
+    <div class="modal-content"><p class="modal-intro">Una funcionalidad única en los mercados de goleador. Si tu jugador es sustituido, la apuesta sigue activa pasando al sustituto en una cadena que termina solo al final del partido.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Cómo funciona:</strong> cadena de sustituciones encadenada</li>
@@ -764,17 +766,19 @@ body.modal-open{overflow:hidden}
 <li>Si el jugador inicial nunca entra al campo: apuesta nula</li>
 <li>Resoluciones basadas en datos oficiales del proveedor</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-19" role="dialog" aria-modal="true" aria-labelledby="modal-title-19">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(19)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-19.webp" alt="Liquidación anticipada por 2-0" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-19">Liquidación anticipada por 2-0</h2>
- <div class="modal-content"><p class="modal-intro">Una funcionalidad de pago anticipado en mercados de fútbol seleccionados. Si tu equipo se pone con 2 goles de ventaja en cualquier momento, la apuesta se paga al instante — el resultado final ya no importa.</p>
+  <button class="modal-close" onclick="closeModal(19)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-19.webp" alt="Liquidación anticipada por 2-0" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-19">Liquidación anticipada por 2-0</h2>
+    <div class="modal-content"><p class="modal-intro">Una funcionalidad de pago anticipado en mercados de fútbol seleccionados. Si tu equipo se pone con 2 goles de ventaja en cualquier momento, la apuesta se paga al instante — el resultado final ya no importa.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Mercado:</strong> "Resultado del Partido (2 goles de ventaja)"</li>
@@ -812,17 +816,19 @@ body.modal-open{overflow:hidden}
 <li>BetSala puede modificar la disponibilidad del mercado</li>
 <li>Si el partido se suspende antes del 2-0, aplican reglas normales</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-6" role="dialog" aria-modal="true" aria-labelledby="modal-title-6">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(6)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-06.webp" alt="Prize Drop Big Bass Football" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-6">Prize Drop Big Bass Football</h2>
- <div class="modal-content"><p class="modal-intro">Big Bass Football Bonanza tiene un Prize Drop especial durante el Mundial: $2.250.000 CLP en pozo total repartido en 100 premios aleatorios entre los giros reales de la slot.</p>
+  <button class="modal-close" onclick="closeModal(6)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-06.webp" alt="Prize Drop Big Bass Football" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-6">Prize Drop Big Bass Football</h2>
+    <div class="modal-content"><p class="modal-intro">Big Bass Football Bonanza tiene un Prize Drop especial durante el Mundial: $2.250.000 CLP en pozo total repartido en 100 premios aleatorios entre los giros reales de la slot.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Pozo total:</strong> $2.250.000 CLP en efectivo</li>
@@ -856,17 +862,19 @@ body.modal-open{overflow:hidden}
 </ul>
 
 <p>El proceso lo gestiona Pragmatic Play directamente. BetSala no influye en el azar del sorteo.</p></div>
- <p class="promo-code-small">Código: <strong>ZKM7</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    <p class="promo-code-small">Código: <strong>ZKM7</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-11" role="dialog" aria-modal="true" aria-labelledby="modal-title-11">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(11)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-11.webp" alt="World Cup Drops mesas Evolution" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-11">World Cup Drops mesas Evolution</h2>
- <div class="modal-content"><p class="modal-intro">World Cup Drops es la promoción de Evolution durante el Mundial 2026. Pozo €500.000 distribuido entre más de 20 mesas. Cada apuesta puede activar un Drop instantáneo equivalente a 3× tu última apuesta.</p>
+  <button class="modal-close" onclick="closeModal(11)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-11.webp" alt="World Cup Drops mesas Evolution" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-11">World Cup Drops mesas Evolution</h2>
+    <div class="modal-content"><p class="modal-intro">World Cup Drops es la promoción de Evolution durante el Mundial 2026. Pozo €500.000 distribuido entre más de 20 mesas. Cada apuesta puede activar un Drop instantáneo equivalente a 3× tu última apuesta.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Pozo total:</strong> €500.000 (equivalente CLP)</li>
@@ -899,17 +907,19 @@ body.modal-open{overflow:hidden}
 
 <h3>4. Apuestas no clasificadoras</h3>
 <p>Apuestas realizadas con Giros Gratis, dinero de bono u otros saldos promocionales <strong>pueden quedar excluidas</strong>. Solo apuestas con saldo real participan en el sorteo aleatorio.</p></div>
- <p class="promo-code-small">Código: <strong>HRE0</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    <p class="promo-code-small">Código: <strong>HRE0</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-12" role="dialog" aria-modal="true" aria-labelledby="modal-title-12">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(12)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-12.webp" alt="Network Drop 9 Balls VoltEnt" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-12">Network Drop 9 Balls VoltEnt</h2>
- <div class="modal-content"><p class="modal-intro">9 Balls de VoltEnt reparte 6.250 premios aleatorios durante dos semanas. Conversión EUR-CLP es fija — no varía con el día — y los premios en efectivo no tienen rollover.</p>
+  <button class="modal-close" onclick="closeModal(12)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-12.webp" alt="Network Drop 9 Balls VoltEnt" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-12">Network Drop 9 Balls VoltEnt</h2>
+    <div class="modal-content"><p class="modal-intro">9 Balls de VoltEnt reparte 6.250 premios aleatorios durante dos semanas. Conversión EUR-CLP es fija — no varía con el día — y los premios en efectivo no tienen rollover.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Slot exclusiva:</strong> 9 Balls de VoltEnt</li>
@@ -945,17 +955,19 @@ body.modal-open{overflow:hidden}
 
 <h3>4. Distribución aleatoria</h3>
 <p>VoltEnt gestiona el sistema de Network Drops directamente. La asignación es totalmente aleatoria y no depende del monto apostado ni del historial del jugador. Los premios mayores son más raros que los menores por diseño del sistema.</p></div>
- <p class="promo-code-small">Código: <strong>RXM5</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    <p class="promo-code-small">Código: <strong>RXM5</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-10" role="dialog" aria-modal="true" aria-labelledby="modal-title-10">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(10)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-10.webp" alt="Ruleta diaria de premios" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-10">Ruleta diaria de premios</h2>
- <div class="modal-content"><p class="modal-intro">La Ruleta de la Fortuna premia el volumen apostado en tragamonedas. Cuanto más juegues en slots durante el día, más ruletas distintas desbloqueas, con premios crecientes en cada nivel.</p>
+  <button class="modal-close" onclick="closeModal(10)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-10.webp" alt="Ruleta diaria de premios" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-10">Ruleta diaria de premios</h2>
+    <div class="modal-content"><p class="modal-intro">La Ruleta de la Fortuna premia el volumen apostado en tragamonedas. Cuanto más juegues en slots durante el día, más ruletas distintas desbloqueas, con premios crecientes en cada nivel.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Cinco niveles</strong> diarios desbloqueables</li>
@@ -993,17 +1005,19 @@ body.modal-open{overflow:hidden}
 <li>Una sola tirada por nivel por día</li>
 <li>Apuestas con bono o Giros Gratis pueden no contar</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-8" role="dialog" aria-modal="true" aria-labelledby="modal-title-8">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(8)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-08.webp" alt="Multiplier Race en 7 slots" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-8">Multiplier Race en 7 slots</h2>
- <div class="modal-content"><p class="modal-intro">Un torneo de slots con $2.000.000 CLP en premios totales en dos semanas. Lo diferente: lo que cuenta es tu consistencia diaria — la suma de tus mejores multiplicadores cada día.</p>
+  <button class="modal-close" onclick="closeModal(8)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-08.webp" alt="Multiplier Race en 7 slots" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-8">Multiplier Race en 7 slots</h2>
+    <div class="modal-content"><p class="modal-intro">Un torneo de slots con $2.000.000 CLP en premios totales en dos semanas. Lo diferente: lo que cuenta es tu consistencia diaria — la suma de tus mejores multiplicadores cada día.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Duración:</strong> dos semanas con rankings independientes</li>
@@ -1051,17 +1065,19 @@ body.modal-open{overflow:hidden}
 <li>Premios acreditados en 72h, retirables</li>
 <li>Empates resueltos por orden cronológico</li>
 </ul></div>
- <p class="promo-code-small">Código: <strong>VLC8</strong></p>
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    <p class="promo-code-small">Código: <strong>VLC8</strong></p>
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-15" role="dialog" aria-modal="true" aria-labelledby="modal-title-15">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(15)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-15.webp" alt="Torneo crash Aviator + AV1" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-15">Torneo crash Aviator + AV1</h2>
- <div class="modal-content"><p class="modal-intro">Torneo semanal donde solo importa el multiplicador más alto que consigas en una sola jugada. Aviator y AV1 cada semana, $350.000 CLP en efectivo para los tres primeros del ranking.</p>
+  <button class="modal-close" onclick="closeModal(15)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-15.webp" alt="Torneo crash Aviator + AV1" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-15">Torneo crash Aviator + AV1</h2>
+    <div class="modal-content"><p class="modal-intro">Torneo semanal donde solo importa el multiplicador más alto que consigas en una sola jugada. Aviator y AV1 cada semana, $350.000 CLP en efectivo para los tres primeros del ranking.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Juegos:</strong> Aviator o AV1 (cualquiera de los dos)</li>
@@ -1100,17 +1116,19 @@ body.modal-open{overflow:hidden}
 <li>BetSala se reserva eliminar usuarios con actividad sospechosa</li>
 <li>Pozo repartido automáticamente al finalizar la semana</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-14" role="dialog" aria-modal="true" aria-labelledby="modal-title-14">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(14)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-14.webp" alt="Drops & Wins Pragmatic anual" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-14">Drops & Wins Pragmatic anual</h2>
- <div class="modal-content"><p class="modal-intro">Drops & Wins de Pragmatic Play está activo todo el año en BetSala — desde marzo 2026 hasta marzo 2027. Combina dos mecánicas paralelas: Wheel Drops semanales y Torneos Diarios.</p>
+  <button class="modal-close" onclick="closeModal(14)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-14.webp" alt="Drops & Wins Pragmatic anual" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-14">Drops & Wins Pragmatic anual</h2>
+    <div class="modal-content"><p class="modal-intro">Drops & Wins de Pragmatic Play está activo todo el año en BetSala — desde marzo 2026 hasta marzo 2027. Combina dos mecánicas paralelas: Wheel Drops semanales y Torneos Diarios.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Vigente:</strong> hasta marzo 2027 (programa anual)</li>
@@ -1161,17 +1179,19 @@ body.modal-open{overflow:hidden}
 <li>Apuestas con saldo de bono o Giros Gratis pueden excluirse</li>
 <li>Empates resueltos por orden cronológico</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-23" role="dialog" aria-modal="true" aria-labelledby="modal-title-23">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(23)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-23.webp" alt="Bet Builder mismo partido" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-23">Bet Builder mismo partido</h2>
- <div class="modal-content"><p class="modal-intro">Bet Builder convierte múltiples mercados de un mismo partido en una apuesta única con cuota multiplicada. Una herramienta para usuarios con visión clara de un partido específico.</p>
+  <button class="modal-close" onclick="closeModal(23)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-23.webp" alt="Bet Builder mismo partido" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-23">Bet Builder mismo partido</h2>
+    <div class="modal-content"><p class="modal-intro">Bet Builder convierte múltiples mercados de un mismo partido en una apuesta única con cuota multiplicada. Una herramienta para usuarios con visión clara de un partido específico.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Disponible en:</strong> fútbol, NBA, NHL, otros principales</li>
@@ -1220,17 +1240,19 @@ body.modal-open{overflow:hidden}
 <li>No combinable con apuestas normales en un solo cupón</li>
 <li>Solo disponible en partidos seleccionados</li>
 </ul></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-24" role="dialog" aria-modal="true" aria-labelledby="modal-title-24">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(24)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-24.webp" alt="Retiro Inmediato 24/7" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-24">Retiro Inmediato 24/7</h2>
- <div class="modal-content"><p class="modal-intro">El Retiro Inmediato es la opción más rápida de BetSala para cobrar tus ganancias. El sistema procesa tu solicitud en menos de cinco minutos, todos los días del año.</p>
+  <button class="modal-close" onclick="closeModal(24)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-24.webp" alt="Retiro Inmediato 24/7" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-24">Retiro Inmediato 24/7</h2>
+    <div class="modal-content"><p class="modal-intro">El Retiro Inmediato es la opción más rápida de BetSala para cobrar tus ganancias. El sistema procesa tu solicitud en menos de cinco minutos, todos los días del año.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Tiempo:</strong> menos de 5 minutos</li>
@@ -1276,17 +1298,19 @@ body.modal-open{overflow:hidden}
 </ul>
 
 <p>Mantén los datos bancarios actualizados y la cuenta totalmente verificada para asegurar la velocidad máxima.</p></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 <div class="modal-overlay" id="modal-25" role="dialog" aria-modal="true" aria-labelledby="modal-title-25">
 <div class="modal-box">
- <button class="modal-close" onclick="closeModal(25)" aria-label="Cerrar">✕</button>
- <div class="modal-img"><img src="../images/bonuses/bonus-25.webp" alt="Patrocinio del Sevilla FC" loading="lazy" width="1800" height="1000"></div>
- <div class="modal-body">
- <h2 id="modal-title-25">Patrocinio del Sevilla FC</h2>
- <div class="modal-content"><p class="modal-intro">BetSala es patrocinador oficial del Sevilla FC, uno de los clubes españoles con mayor palmarés europeo. La alianza acerca el fútbol europeo de élite a los aficionados chilenos.</p>
+  <button class="modal-close" onclick="closeModal(25)" aria-label="Cerrar">✕</button>
+  <div class="modal-img"><img src="../images/bonuses/bonus-25.webp" alt="Patrocinio del Sevilla FC" loading="lazy" width="1800" height="1000"></div>
+  <div class="modal-body">
+    <h2 id="modal-title-25">Patrocinio del Sevilla FC</h2>
+    <div class="modal-content"><p class="modal-intro">BetSala es patrocinador oficial del Sevilla FC, uno de los clubes españoles con mayor palmarés europeo. La alianza acerca el fútbol europeo de élite a los aficionados chilenos.</p>
+
 <h3>Datos clave</h3>
 <ul>
 <li><strong>Tipo de alianza:</strong> patrocinio oficial</li>
@@ -1321,23 +1345,25 @@ body.modal-open{overflow:hidden}
 
 <h3>4. Valores compartidos</h3>
 <p>BetSala y Sevilla FC comparten valores fundamentales: pasión por el deporte, compromiso con la excelencia, respeto a la comunidad de fanáticos y esfuerzo constante. Esta alianza refleja el interés mutuo por construir una experiencia deportiva auténtica para aficionados de ambos lados del Atlántico.</p></div>
- 
- <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
- </div></div>
+    
+    <a class="btn btn-primary modal-cta" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Reclamar bono</a>
+  </div>
+</div>
 </div>
 
 
 <main>
 <div class="container breadcrumbs"><a href="../">Inicio</a><span> › </span><span>Promociones</span></div>
 <section class="hero">
- <div class="container hero-grid">
- <div>
- <h1>BetSala <span class="accent">promociones</span>: bonos, giros y reglas antes de activar</h1>
- <p class="lead">Antes de activar un bono específico de BetSala, conviene leer las condiciones completas — rollover, validez, juegos válidos y compatibilidad con otros bonos. Esta página presenta las 25 promociones vigentes con sus términos al alcance.</p>
- <div class="hero-cta"><a class="btn btn-primary" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Abrir cuenta</a><a class="btn btn-ghost" href="../codigo-promocional/">Códigos promocionales</a></div>
- </div>
- <div class="hero-img"><img src="../images/welcome-bonus.webp" srcset="../images/welcome-bonus-400.webp 400w, ../images/welcome-bonus-800.webp 800w, ../images/welcome-bonus.webp 1200w" sizes="(max-width: 560px) 400px, (max-width: 980px) 800px, 1200px" alt="BetSala promociones Chile" loading="eager" fetchpriority="high" width="1200" height="675" decoding="async"></div>
- </div></section>
+  <div class="container hero-grid">
+    <div>
+      <h1>BetSala <span class="accent">promociones</span>: bonos, giros y reglas antes de activar</h1>
+      <p class="lead">Antes de activar un bono específico de BetSala, conviene leer las condiciones completas — rollover, validez, juegos válidos y compatibilidad con otros bonos. Esta página presenta las 25 promociones vigentes con sus términos al alcance.</p>
+      <div class="hero-cta"><a class="btn btn-primary" href="../play-online-now/" rel="nofollow noopener noreferrer sponsored" data-nosnippet target="_blank">Abrir cuenta</a><a class="btn btn-ghost" href="../codigo-promocional/">Códigos promocionales</a></div>
+    </div>
+    <div class="hero-img"><img src="../images/welcome-bonus.webp" alt="BetSala promociones Chile" loading="eager" width="1200" height="675"></div>
+  </div>
+</section>
 
 <section>
 <div class="container">
@@ -1346,7 +1372,7 @@ body.modal-open{overflow:hidden}
 <p>Bonos de bienvenida, cashback, torneos del Mundial 2026, MásCombi, Drops & Wins y más — cada tarjeta abre la ficha completa con términos y código</p>
 </div>
 <div class="promos-grid"><article class="bono-card" onclick="openModal(2)" role="button" tabindex="0" aria-label="Ver Pack bienvenida casino + spins">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-02.webp" alt="Pack bienvenida casino + spins BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-02.webp" alt="Pack bienvenida casino + spins BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Pack bienvenida casino + spins</h3>
 <p>El primer depósito desde $5.000 CLP multiplica por 1.5 hasta $300.000 CLP, con 25 a 200 giros gratis según el tramo de la recarga.</p>
@@ -1355,7 +1381,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(1)" role="button" tabindex="0" aria-label="Ver Free Bet de bienvenida deportiva">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-01.webp" alt="Free Bet de bienvenida deportiva BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-01.webp" alt="Free Bet de bienvenida deportiva BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Free Bet de bienvenida deportiva</h3>
 <p>Cumple los pasos de registro, depósito y primera apuesta de $10.000 CLP con cuota 1.80+ para acreditar $30.000 CLP en saldo bonificado.</p>
@@ -1364,7 +1390,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(3)" role="button" tabindex="0" aria-label="Ver Recarga casino del 100%">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-03.webp" alt="Recarga casino del 100% BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-03.webp" alt="Recarga casino del 100% BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Recarga casino del 100%</h3>
 <p>Segundo depósito desde $5.000 CLP con bono del 100% hasta $200.000 CLP, más entre 15 y 100 giros adicionales para slots Pragmatic.</p>
@@ -1373,7 +1399,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(4)" role="button" tabindex="0" aria-label="Ver Giros gratis cada martes">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-04.webp" alt="Giros gratis cada martes BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-04.webp" alt="Giros gratis cada martes BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Giros gratis cada martes</h3>
 <p>Apuesta $25.000 CLP en cualquier slot de la saga Gates of Olympus el lunes y desbloquea 25 giros gratis al día siguiente, automáticos.</p>
@@ -1382,7 +1408,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(22)" role="button" tabindex="0" aria-label="Ver Seguro semanal BetSala Club">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-22.webp" alt="Seguro semanal BetSala Club BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-22.webp" alt="Seguro semanal BetSala Club BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Seguro semanal BetSala Club</h3>
 <p>Pierde más de $25.000 CLP en deportes durante la semana y recibe Free Bet automática el lunes — el monto escala con el tamaño de la pérdida.</p>
@@ -1391,7 +1417,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(16)" role="button" tabindex="0" aria-label="Ver Reembolso 10% slots miércoles">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-16.webp" alt="Reembolso 10% slots miércoles BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-16.webp" alt="Reembolso 10% slots miércoles BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Reembolso 10% slots miércoles</h3>
 <p>Recupera el 10% de tu pérdida neta en tragamonedas del miércoles, acreditado en saldo principal el jueves antes de las 9:00h.</p>
@@ -1400,7 +1426,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(20)" role="button" tabindex="0" aria-label="Ver Cashback Casino En Vivo flexible">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-20.webp" alt="Cashback Casino En Vivo flexible BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-20.webp" alt="Cashback Casino En Vivo flexible BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Cashback Casino En Vivo flexible</h3>
 <p>5% sobre la pérdida neta diaria en Casino En Vivo. Cobra cuando quieras durante el día o espera el pago automático del amanecer.</p>
@@ -1409,7 +1435,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(17)" role="button" tabindex="0" aria-label="Ver Bonificación MásCombi">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-17.webp" alt="Bonificación MásCombi BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-17.webp" alt="Bonificación MásCombi BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Bonificación MásCombi</h3>
 <p>Cada combinada ganadora con 3+ selecciones a cuota mínima 1.40 recibe un bono extra que escala según número de picks: del 6% al 100%.</p>
@@ -1418,7 +1444,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(18)" role="button" tabindex="0" aria-label="Ver MásCombi versión paralela">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-18.webp" alt="MásCombi versión paralela BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-18.webp" alt="MásCombi versión paralela BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>MásCombi versión paralela</h3>
 <p>Estructura idéntica a MásCombi original. Si está disponible en tu cuenta funciona igual — la escala va del 6% con 3 picks al 100% con 20+.</p>
@@ -1427,7 +1453,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(21)" role="button" tabindex="0" aria-label="Ver Boost diario del 5%">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-21.webp" alt="Boost diario del 5% BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-21.webp" alt="Boost diario del 5% BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Boost diario del 5%</h3>
 <p>Un depósito de $10.000 CLP activa un aumentador del 5% sobre la ganancia neta. Se activa desde el boleto antes de confirmar la apuesta.</p>
@@ -1436,7 +1462,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(5)" role="button" tabindex="0" aria-label="Ver Pasaporte Mundial 2026">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-05.webp" alt="Pasaporte Mundial 2026 BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-05.webp" alt="Pasaporte Mundial 2026 BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Pasaporte Mundial 2026</h3>
 <p>17 misiones distribuidas durante el Mundial 2026. Completar 5, 10 o las 17 desbloquea premios escalonados del Pasaporte Mundialista.</p>
@@ -1445,7 +1471,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(7)" role="button" tabindex="0" aria-label="Ver El Vidente — predicciones gratis">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-07.webp" alt="El Vidente — predicciones gratis BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-07.webp" alt="El Vidente — predicciones gratis BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>El Vidente — predicciones gratis</h3>
 <p>Sin apostar saldo, predice marcadores y goleadores del Mundial 2026. Los puntos del ranking definen quién gana del pozo de Free Bets.</p>
@@ -1454,7 +1480,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(9)" role="button" tabindex="0" aria-label="Ver Cartilla Futbolera 1X2">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-09.webp" alt="Cartilla Futbolera 1X2 BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-09.webp" alt="Cartilla Futbolera 1X2 BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Cartilla Futbolera 1X2</h3>
 <p>Quiniela tradicional desde $300 CLP por línea. Acumula aciertos para una mayor participación en el pozo común de la jornada.</p>
@@ -1463,7 +1489,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(13)" role="button" tabindex="0" aria-label="Ver Cadena Suplente al Rescate">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-13.webp" alt="Cadena Suplente al Rescate BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-13.webp" alt="Cadena Suplente al Rescate BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Cadena Suplente al Rescate</h3>
 <p>Apuesta al goleador y si tu jugador sale del campo, la apuesta pasa automáticamente al sustituto y sigue activa hasta el minuto 90.</p>
@@ -1472,7 +1498,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(19)" role="button" tabindex="0" aria-label="Ver Liquidación anticipada por 2-0">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-19.webp" alt="Liquidación anticipada por 2-0 BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-19.webp" alt="Liquidación anticipada por 2-0 BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Liquidación anticipada por 2-0</h3>
 <p>Mercado especial de 2 goles de ventaja: si tu equipo abre esa diferencia en cualquier momento, la apuesta se paga al instante.</p>
@@ -1481,7 +1507,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(6)" role="button" tabindex="0" aria-label="Ver Prize Drop Big Bass Football">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-06.webp" alt="Prize Drop Big Bass Football BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-06.webp" alt="Prize Drop Big Bass Football BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Prize Drop Big Bass Football</h3>
 <p>$2.250.000 CLP repartidos en 100 premios aleatorios entre giros reales de Big Bass Football Bonanza durante la campaña mundialista.</p>
@@ -1490,7 +1516,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(11)" role="button" tabindex="0" aria-label="Ver World Cup Drops mesas Evolution">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-11.webp" alt="World Cup Drops mesas Evolution BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-11.webp" alt="World Cup Drops mesas Evolution BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>World Cup Drops mesas Evolution</h3>
 <p>Pozo €500.000 durante el Mundial 2026 en más de 20 mesas Evolution. Cada apuesta puede activar un Drop equivalente a 3× tu apuesta.</p>
@@ -1499,7 +1525,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(12)" role="button" tabindex="0" aria-label="Ver Network Drop 9 Balls VoltEnt">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-12.webp" alt="Network Drop 9 Balls VoltEnt BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-12.webp" alt="Network Drop 9 Balls VoltEnt BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Network Drop 9 Balls VoltEnt</h3>
 <p>6.250 premios aleatorios en 9 Balls durante dos semanas. Conversión fija de €2 a €160 en pesos chilenos, sin importe mínimo de apuesta.</p>
@@ -1508,7 +1534,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(10)" role="button" tabindex="0" aria-label="Ver Ruleta diaria de premios">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-10.webp" alt="Ruleta diaria de premios BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-10.webp" alt="Ruleta diaria de premios BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Ruleta diaria de premios</h3>
 <p>Cinco niveles de ruleta — Fortuna, Premium, Super Premium, VIP y Super VIP — desbloqueables según las apuestas en tragamonedas del día.</p>
@@ -1517,7 +1543,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(8)" role="button" tabindex="0" aria-label="Ver Multiplier Race en 7 slots">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-08.webp" alt="Multiplier Race en 7 slots BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-08.webp" alt="Multiplier Race en 7 slots BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Multiplier Race en 7 slots</h3>
 <p>Dos rankings semanales de $1.000.000 CLP. Tu mejor multiplicador diario en slots seleccionadas acumula puntos hacia el top 20.</p>
@@ -1526,7 +1552,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(15)" role="button" tabindex="0" aria-label="Ver Torneo crash Aviator + AV1">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-15.webp" alt="Torneo crash Aviator + AV1 BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-15.webp" alt="Torneo crash Aviator + AV1 BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Torneo crash Aviator + AV1</h3>
 <p>Ranking semanal por multiplicador más alto en una jugada. Top 3 reparte $200K, $100K y $50K CLP en efectivo cada semana.</p>
@@ -1535,7 +1561,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(14)" role="button" tabindex="0" aria-label="Ver Drops & Wins Pragmatic anual">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-14.webp" alt="Drops & Wins Pragmatic anual BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-14.webp" alt="Drops & Wins Pragmatic anual BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Drops & Wins Pragmatic anual</h3>
 <p>Programa hasta marzo 2027 con dos mecánicas: Wheel Drops semanales con piezas coleccionables y Torneos Diarios con ranking en vivo.</p>
@@ -1544,7 +1570,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(23)" role="button" tabindex="0" aria-label="Ver Bet Builder mismo partido">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-23.webp" alt="Bet Builder mismo partido BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-23.webp" alt="Bet Builder mismo partido BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Bet Builder mismo partido</h3>
 <p>Combina resultado, goleador, corners y tarjetas del mismo partido en un solo cupón. Las cuotas se multiplican en tiempo real.</p>
@@ -1553,7 +1579,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(24)" role="button" tabindex="0" aria-label="Ver Retiro Inmediato 24/7">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-24.webp" alt="Retiro Inmediato 24/7 BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-24.webp" alt="Retiro Inmediato 24/7 BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Retiro Inmediato 24/7</h3>
 <p>Procesa tu retiro y el dinero llega a tu banco en menos de cinco minutos, todos los días del año incluyendo madrugadas y feriados.</p>
@@ -1562,7 +1588,7 @@ body.modal-open{overflow:hidden}
 </div>
 </article>
 <article class="bono-card" onclick="openModal(25)" role="button" tabindex="0" aria-label="Ver Patrocinio del Sevilla FC">
-<div class="bono-card-img"><img src="..images/bonuses/bonus-25.webp" alt="Patrocinio del Sevilla FC BetSala" loading="lazy" width="1800" height="1000"></div>
+<div class="bono-card-img"><img src="../images/bonuses/bonus-25.webp" alt="Patrocinio del Sevilla FC BetSala" loading="lazy" width="1800" height="1000"></div>
 <div class="bono-card-body">
 <h3>Patrocinio del Sevilla FC</h3>
 <p>BetSala es patrocinador oficial del Sevilla FC, club español con 7 títulos UEFA Europa League. Acerca el fútbol europeo de élite a Chile.</p>
@@ -1586,7 +1612,8 @@ body.modal-open{overflow:hidden}
 <div class="container">
 <div class="foot-grid">
 <div>
-<div class="foot-logo"><img loading="lazy" src="..assets/logo.webp" alt="BetSala Chile" width="360" height="80"></div><p style="font-size:14px">Guía editorial para usuarios chilenos de BetSala: casino, apuestas deportivas, app móvil, registro, login, código promocional, bonos y soporte.</p>
+<div class="foot-logo"><img src="../assets/logo.webp" alt="BetSala Chile" width="360" height="80"></div>
+<p style="font-size:14px">Guía editorial para usuarios chilenos de BetSala: casino, apuestas deportivas, app móvil, registro, login, código promocional, bonos y soporte.</p>
 <p class="foot-disclaimer">Solo para mayores de 18 años. El juego con dinero real implica riesgo económico. Revisa términos, requisitos de apuesta, límites personales y herramientas de juego responsable antes de activar cualquier bono.</p>
 </div>
 <div><h2 class="foot-h">Casino</h2><ul>
